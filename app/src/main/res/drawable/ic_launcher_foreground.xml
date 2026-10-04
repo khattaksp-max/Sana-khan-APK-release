@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer Harmonic Wave Ring -->
+    <path
+        android:pathData="M 54,26 A 28,28 0 1,0 54,82 A 28,28 0 1,0 54,26"
+        android:strokeWidth="1.8"
+        android:strokeColor="#55818CF8"
+        android:fillColor="#00000000" />
+
+    <!-- Secondary Wave Ring -->
+    <path
+        android:pathData="M 54,33 A 21,21 0 1,0 54,75 A 21,21 0 1,0 54,33"
+        android:strokeWidth="2.2"
+        android:strokeColor="#AA38BDF8"
+        android:fillColor="#00000000" />
+
+    <!-- Luminous Energy Core -->
+    <path
+        android:pathData="M 54,39 A 15,15 0 1,0 54,69 A 15,15 0 1,0 54,39">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="54"
+                android:centerY="54"
+                android:gradientRadius="15"
+                android:type="radial">
+                <item android:offset="0.0" android:color="#FFFFFFFF" />
+                <item android:offset="0.45" android:color="#FF38BDF8" />
+                <item android:offset="0.85" android:color="#FFA855F7" />
+                <item android:offset="1.0" android:color="#006366F1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Voice Sound Wave Bars in the Core -->
+    <path
+        android:pathData="M 46,49 L 46,59"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeColor="#FFFFFF" />
+
+    <path
+        android:pathData="M 50,45 L 50,63"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeColor="#FFFFFF" />
+
+    <path
+        android:pathData="M 54,41 L 54,67"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeColor="#FFFFFF" />
+
+    <path
+        android:pathData="M 58,45 L 58,63"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeColor="#FFFFFF" />
+
+    <path
+        android:pathData="M 62,49 L 62,59"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeColor="#FFFFFF" />
+
+    <!-- Orbital Satellite Nodes -->
+    <path
+        android:pathData="M 54,23 A 2,2 0 1,0 54,27 A 2,2 0 1,0 54,23"
+        android:fillColor="#38BDF8" />
+    <path
+        android:pathData="M 85,54 A 2,2 0 1,0 85,58 A 2,2 0 1,0 85,54"
+        android:fillColor="#C084FC" />
+    <path
+        android:pathData="M 54,81 A 2,2 0 1,0 54,85 A 2,2 0 1,0 54,81"
+        android:fillColor="#38BDF8" />
+    <path
+        android:pathData="M 23,54 A 2,2 0 1,0 23,58 A 2,2 0 1,0 23,54"
+        android:fillColor="#C084FC" />
+</vector>

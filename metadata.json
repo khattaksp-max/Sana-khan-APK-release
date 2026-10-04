@@ -1,0 +1,6 @@
+{
+  "name": "SANA",
+  "description": "SANA - Next-generation AI voice assistant and companion powered by Gemini native audio with multilingual support and phone control.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
